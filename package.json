@@ -46,7 +46,10 @@
     "prettier": "^1.18.2",
     "supertest": "^4.0.2"
   },
-  "dependencies": {},
+  "dependencies": {
+    "hast-util-select": "^4.0.0",
+    "hastscript": "^6.0.0"
+  },
   "ava": {
     "files": [
       "**/*.test.js"
