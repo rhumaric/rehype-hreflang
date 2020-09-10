@@ -1,6 +1,6 @@
 {
   "name": "rehype-hreflang",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Template for NodeJS projects",
   "main": "src/index.js",
   "engines": {
