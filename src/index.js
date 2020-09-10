@@ -3,7 +3,7 @@ const h = require('hastscript');
 
 module.exports = function({
   selector = '[hreflang]',
-  ignoreSelector = '.no-hreflang',
+  ignoreSelector = '.no-hreflang,[hreflang=""]',
   className = 'hreflang'
 } = {}) {
   return function(tree) {
